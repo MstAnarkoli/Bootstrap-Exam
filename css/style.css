@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*
+	Author: Mst Anarkoli
+	Mail: anarkoliniru@gmail.com
+
+*/
+/*
+	===Index==
+	1. HOME
+	2. HOW IT WORKS
+	3. DISCOVER A PROJECT
+	4. BLOG
+	5. FIND OUT MORE
+*/
+
+/* Global CSS */
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+
+/* Theme CSS */
+
+/* Header CSS */
+
+header{
+	padding: 25px 0;
+	margin-bottom: 50px;
+}
+.nav-head{
+    padding: 25px 0;
+}
+
+.nav-brand{
+  	margin-top: 0px;
+}
+
+
+.fa.fa-bars{
+    color: #c9c9c9;
+}
+
+.nav-link{
+    color:#c9c9c9;
+}
+.nav-link ul{
+
+}
+.nav-link ul li{
+
+}
+
+.hero{
+	padding: 200px 0;
+	width: 100%;
+	float: left;
+	background: url(../img/Banner.png) no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #ffffff;
+	
+}
+
+
+.hero h2{
+	font-size: 49px;
+	font-weight: 700;
+	color:#ffffff;
+	font-weight: 700;
+	margin: 20px 0;
+}
+.hero p{
+	font-size: 35px;
+	color:#ffffff;
+	margin-bottom: 50px;
+	font-weight: 400;
+	
+}
+
+.hero-btn{
+	background: #add136;
+    color: white;
+    font-size: 19px;
+    padding: 22px 40px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 400;
+            
+}
+
+
+
+
+.our-works{
+	width: 100%;
+	float:left;
+	padding: 100px 0;
+	background-color: #ffffff;
+	text-align: center;
+
+}
+.our-works1 img{
+	padding-bottom: 30px;
+}
+.our-works2 h3{
+	font-size: 31px;
+	color: #515151;
+	font-weight: 700;
+	text-transform: uppercase;
+	line-height: 50px;
+	margin-bottom: 30px;
+	
+	
+}
+
+.our-works1 p{
+	font-size: 17px;
+	color: #c9c9c9;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.project{
+	width: 100%;
+	float:left;
+	padding: 25px 0;
+}
+.find-properties{
+	background-color: #e2f8ff;
+	padding: 50px 0;
+
+}
+
+.find-properties h3{
+	font-size: 23px;
+	font-weight: 700;
+	color:#515151;
+	margin-bottom: 30px;
+
+}
+.find-properties p{
+	font-size: 17px;
+	color:#515151;
+	width: 55%;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+.find-properties img{
+	padding-top: 50px;
+}
+
+.find-buyers{
+	background-color: #f5f9eb;
+	padding: 50px 0;
+}
+.find-buyers h3{
+	font-size: 23px;
+	font-weight: 700;
+	color:#515151;
+	margin-bottom: 30px;
+}
+.find-buyers p{
+	font-size: 17px;
+	color:#515151;
+	width: 55%;
+	color:#515151;
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.find-buyers img{
+	padding-top: 70px;
+}
+.project-btn1{
+	background: #26a6d1;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 400;
+
+
+}
+.project-btn2{
+	background: #add136;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-weight: 400;
+
+}
+.blog{
+	width: 100%;
+	float: left;
+	padding: 50px;
+}
+
+.blog-head{
+	padding-bottom: 50px;
+
+}
+.blog-head h4{
+	font-size: 29px;
+	font-weight: 700;
+	margin-bottom: 20px;
+
+
+}
+.blog-head p{
+	font-size: 14px;
+	color: #c9c9c9;
+}
+.blog-btn{
+	background: transparent;
+    color: #c9c9c9;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: 1px solid #c9c9c9;
+    border-radius: 8px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+
+.blog-btn:hover{
+	background: #add136;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 400;
+
+
+}
+.blog-body{
+
+}
+
+.card{
+	margin:0  13px;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+	border-radius: 20px;
+}
+
+.img-parent{
+	width: 100%;
+	float: left;
+	position: relative;
+}
+.img-child{
+	position: absolute;
+	top:33%;
+	left: 50%;
+}
+.img-btn{
+	background: #26a6d1;
+    color: white;
+    font-size: 14px;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 400;
+
+}
+
+.card-body h5{
+	font-size: 17px;
+	font-weight: 700;
+	margin-bottom: 10px;
+
+}
+.card-body p{
+	font-size: 14px;
+	color: #7a7a7a;
+	line-height:25px; 
+	margin-bottom: 40px;
+
+}
+
+.card-body h6{
+	font-size: 14px;
+	color: #7a7a7a;
+	line-height:25px; 
+	margin-bottom: 40px;
+}
+.day-left{
+	text-align: right;
+}
+
+.span-bottom{
+	border-bottom: 2px solid #515151; 
+}
+
+.card-body h3{
+	font-size: 17px;
+	color: #7a7a7a;
+	line-height:25px; 
+	margin-bottom: 40px;
+	font-weight: 700;
+	text-align: right;
+
+}
+
+.find-more{
+	width: 100%;
+	float: left;
+	padding: 25px 0;
+}
+
+footer h4{
+	font-size: 14px;
+	text-align: center;
+	color: #7a7a7a;
+}
+
+   
+
+
+/* small device*/
+
+@media(min-width: 576.01px) and (max-width: 768px){
+
+}
+
+/* medium device*/
+
+@media(min-width: 768.01px) and (max-width: 992px){
+
+
+}
+
+
+/* desktop-laptop*/
+
+@media(min-width: 992.01px) and (max-width: 1200px){
+
+
+}
+
+/* large device*/
+
+@media(min-width: 1200.01px){
+
+
+}
+
+
+
+ 
+
